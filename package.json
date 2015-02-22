@@ -27,6 +27,8 @@
   "devDependencies": {
     "coffee-script": "^1.9.1",
     "coffee": "^1.0.0",
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "browserify": "^9.0.3",
+    "vinyl-source-stream": "^1.0.0"
   }
 }
