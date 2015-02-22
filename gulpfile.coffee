@@ -6,8 +6,8 @@ templatify = require './src/index.coffee'
 
 gulp.task "default", ->
 	bundler = browserify(
-		entries: [ './spec/test.html' ])
-	bundler.transform templatify()
+		entries: [ './spec/test.us' ])
+	bundler.transform templatify({ext:['.us']})
 	bundler.bundle()
 		.pipe(source('bundle.js'))
 		.pipe gulp.dest('./temp/')

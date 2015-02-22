@@ -6,8 +6,10 @@ defaults =
 	ext: ['.html']
 
 module.exports = (opts) ->
+	opts = _.extend defaults, opts
+	console.log opts
 	return (file) ->
-		unless path.extname(file) is '.html'
+		unless path.extname(file) in defaults.ext
 			return t2()
 		t2 (data, enc, cb) ->
 			data = String data
