@@ -1,0 +1,32 @@
+{
+  "name": "gulp-underscore-templatify",
+  "version": "0.0.0",
+  "description": "browserify plugin",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digijin/gulp-underscore-templatify.git"
+  },
+  "keywords": [
+    "gulp",
+    "underscore",
+    "template"
+  ],
+  "author": "digijin",
+  "bugs": {
+    "url": "https://github.com/digijin/gulp-underscore-templatify/issues"
+  },
+  "homepage": "https://github.com/digijin/gulp-underscore-templatify",
+  "dependencies": {
+    "underscore": "^1.8.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "coffee": "^1.0.0",
+    "gulp": "^3.8.11"
+  }
+}
