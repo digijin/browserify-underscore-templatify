@@ -14,7 +14,6 @@
 
   module.exports = function(opts) {
     opts = _.extend(defaults, opts);
-    console.log(opts);
     return function(file) {
       var ref;
       if (ref = path.extname(file), indexOf.call(defaults.ext, ref) < 0) {
