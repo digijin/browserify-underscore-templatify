@@ -4,7 +4,7 @@
   "description": "browserify plugin",
   "main": "dist/index.js",
   "scripts": {
-    "postinstall": "gulp build"
+    "postinstall": "gulp"
   },
   "repository": {
     "type": "git",
