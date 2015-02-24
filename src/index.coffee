@@ -7,7 +7,6 @@ defaults =
 
 module.exports = (opts) ->
 	opts = _.extend defaults, opts
-	console.log opts
 	return (file) ->
 		unless path.extname(file) in defaults.ext
 			return t2()

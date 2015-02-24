@@ -1,1 +1,1 @@
-an underscore template! <%= name %>
+an underscore template! <%= name %> <%= Math.random() %>

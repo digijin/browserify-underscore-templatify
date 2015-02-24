@@ -1,5 +1,5 @@
 {
-  "name": "gulp-underscore-templatify",
+  "name": "browserify-underscore-templatify",
   "version": "0.0.0",
   "description": "browserify plugin",
   "main": "dist/index.js",
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/digijin/gulp-underscore-templatify.git"
+    "url": "https://github.com/digijin/browserify-underscore-templatify.git"
   },
   "keywords": [
-    "gulp",
+    "browserify",
     "underscore",
     "template"
   ],
   "author": "digijin",
   "bugs": {
-    "url": "https://github.com/digijin/gulp-underscore-templatify/issues"
+    "url": "https://github.com/digijin/browserify-underscore-templatify/issues"
   },
-  "homepage": "https://github.com/digijin/gulp-underscore-templatify",
+  "homepage": "https://github.com/digijin/browserify-underscore-templatify",
   "dependencies": {
     "underscore": "^1.8.1",
     "through2": "^0.6.3"
