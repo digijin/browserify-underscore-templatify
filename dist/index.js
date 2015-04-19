@@ -12,20 +12,17 @@
     ext: ['.html']
   };
 
-  module.exports = function(opts) {
-    opts = _.extend(defaults, opts);
-    return function(file) {
-      var ref;
-      if (ref = path.extname(file), indexOf.call(defaults.ext, ref) < 0) {
-        return t2();
-      }
-      return t2(function(data, enc, cb) {
-        data = String(data);
-        data = 'module.exports = ' + _.template(data).source;
-        this.push(new Buffer(data));
-        return cb();
-      });
-    };
+  module.exports = function(file) {
+    var ref;
+    if (ref = path.extname(file), indexOf.call(defaults.ext, ref) < 0) {
+      return t2();
+    }
+    return t2(function(data, enc, cb) {
+      data = String(data);
+      data = 'module.exports = ' + _.template(data).source;
+      this.push(new Buffer(data));
+      return cb();
+    });
   };
 
 }).call(this);

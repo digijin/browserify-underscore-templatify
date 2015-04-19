@@ -1,6 +1,6 @@
 {
   "name": "browserify-underscore-templatify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "browserify plugin",
   "main": "dist/index.js",
   "scripts": {
